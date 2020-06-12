@@ -30,18 +30,15 @@ button:hover{
     z-index: 999;
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
-    /* da cancellare */
     height: 80px;
 }
 .second{
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
-    /* da cancellare */
     height: 80px;
 }
 .third{
     background-color: #white;
-    /* da cancellare */
     height: 80px;
 }
 .forth{
@@ -49,35 +46,30 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    /* da cancellare */
     height: 800px;
 }
 
 .sixth{
     background-color: #f5f8fa;
-    /* da cancellare */
     height: 1500px;
 }
 .seventh{
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
-    /* da cancellare */
     height: 1000px;
 }
 .eighth{
-    background-color: #white;
-    /* da cancellare */
+    background-color: white;
     height: 1000px;
 }
 .nineth{
     background-color: #33475b;
-    /* da cancellare */
-    height: 800px;
+    height: 1000px;
 }
 
 /* Fine container full width */
 
 .container{
-    /* position: relative; */
+    position: relative;
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -143,12 +135,12 @@ button:hover{
 
 /* container third */
 
-#logo{
+.logo{
     float: left;
     height: 80px;
 }
 
-#logo img{
+.logo img{
     height: 100%;
 }
 
@@ -216,6 +208,7 @@ button:hover{
 /* container sixth */
 
 .sixth-top{
+    padding-top: 25px;
     margin: 0 auto;
     text-align: center;
     width: 75%;
@@ -363,6 +356,10 @@ button:hover{
     border-radius: 5px;
 }
 
+/* Fine container sixth */
+
+/* container seventh */
+
 .seventh-top{
     color: white;
     text-align: center;
@@ -377,11 +374,13 @@ button:hover{
 
 .seventh-top p {
     margin-top: 20px;
+    opacity: 0.6;
 }
 
 .seventh-down{
     height: 450px;
     margin-top: 190px;
+    opacity: 0.6;
 }
 
 .grid{
@@ -427,18 +426,19 @@ button:hover{
     font-size: 22px;
 }
 
+/* fine container seventh */
+
+/* container eighth */
+
 .eigth-top{
-    position: relative;
+    padding-top: 150px;
     width: 100%;
     height: 300px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .leftof-eigth-top{
-    position: absolute;
-    top: 50px;
-    left: 0;
-    display: inline-block;
+    float: left;
     width: 40%;
 }
 
@@ -453,10 +453,7 @@ button:hover{
 }
 
 .rightof-eigth-top{
-    position: absolute;
-    right: 0;
-    top: 50px;
-    display: inline-block;
+    float: left;
     width: 60%;
     height: 160px;
 }
@@ -479,7 +476,7 @@ button:hover{
     position: relative;
     width: 100%;
     height: 445px;
-    margin: 100px auto;
+    margin: 127px auto;
 }
 
 .eigth-bottom .jumbotron h2{
@@ -501,3 +498,104 @@ button:hover{
     width: 60%;
     height: 100%;
 }
+
+/* fine container eighth */
+
+/* container nineth */
+
+footer{
+    height: 100%;
+    padding-top: 92px;
+}
+
+.footer-list{
+    float: left;
+    width: calc(100% / 4);
+    height: 50%;
+}
+
+.footer-list ul{
+    color: white;
+    list-style: none;
+    margin-right:20px;
+}
+
+.footer-list li{
+    margin-top: 35px;
+}
+
+.footer-list a{
+    color: #cbd6e2;
+    text-decoration: none;
+}
+
+.footer-list button{
+    color: black;
+    width: 65%;
+    height: 43px;
+    border-radius: 5px;
+}
+
+.social-button i{
+    color: #cbd6e2;
+    font-size: 26px;
+    float: left;
+    margin-right: 18px;
+}
+
+.language-footer{
+    width: 100%;
+    height: 10%;
+    color: #cbd6e2;
+    text-align: center;
+    font-size: 23px;
+    float: left;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.languages{
+    margin: 30px 20px 0 0;
+    display: inline-block;
+}
+
+.languages:hover,.footer-list li:hover,.social-button .fab:hover
+ {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.logo.bottom{
+    float: left;
+    height: 150px;
+    width: 350px;
+    color: #cbd6e2;
+    border: 0;
+    margin-top: 50px;
+}
+
+.logo.bottom img{
+    height: 50px;
+    width: 174px;
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    color: #cbd6e2;
+    float: left;
+    width: 400px;
+    height: 150px;
+    margin: 50px 0 0 450px;
+}
+
+.footer-right li{
+    display: inline-block;
+}
+
+.footer-right a{
+    color: #cbd6e2;
+    font-size: 22px;
+    line-height: 100px;
+    margin: 0 40px 0 39px;
+    text-decoration: none;
+}
+/* fine container nine */
