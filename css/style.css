@@ -11,7 +11,7 @@
 }
 
 body{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 button:hover{
@@ -32,15 +32,18 @@ button:hover{
     border-bottom: 1px solid #cbd6e2;
     height: 80px;
 }
+
 .second{
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
     height: 80px;
 }
+
 .third{
     background-color: #white;
     height: 80px;
 }
+
 .forth{
     background-image: url("../img/KnZ9-jumbotron.png");
     background-size: cover;
@@ -53,17 +56,18 @@ button:hover{
     background-color: #f5f8fa;
     height: 1500px;
 }
+
 .seventh{
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
     height: 1000px;
 }
+
 .eighth{
     background-color: white;
-    height: 1000px;
 }
+
 .nineth{
     background-color: #33475b;
-    height: 1000px;
 }
 
 /* Fine container full width */
@@ -102,13 +106,13 @@ button:hover{
 }
 
 .nav-right{
-    line-height: 80px;
-    margin-left: 600px;
     float: left;
+    margin-left: 620px;
+    line-height: 80px;
 }
 
 .nav-right i{
-    color: blue;
+    color: #3e8792;
     margin:0 10px;
 }
 .nav-right i:hover{
@@ -218,6 +222,11 @@ button:hover{
     display: block;
     margin: 20px auto;
     height: 200px;
+    transition: transform .8s;
+}
+
+.sixth-top img:hover{
+    transform: rotate(360deg);
 }
 
 .sixth-top h2{
@@ -233,6 +242,7 @@ button:hover{
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transition: transform  .2s;
 }
 
 .leftof-card-top{
@@ -277,7 +287,7 @@ button:hover{
 #linea{
     display: inline-block;
     margin-left: 30px;
-    width: 439px;
+    width: 370px;
     height: 2px;
     background-color: black;
 }
@@ -296,16 +306,26 @@ button:hover{
 }
 
 .card-bottom{
+    background-color: white;
     width: 28%;
     height: 680px;
     float: left;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transition: transform  .2s;
+}
+
+.card-bottom:hover,.sixth-card-top:hover{
+    transform: scale(1.05);
 }
 
 .sixth-cards-bottom .card-bottom:nth-child(2){
     margin: 0 96px 0 96px;
+}
+
+.topof-card-bottom{
+    margin: 20px 0 15px 0;
 }
 
 .topof-card-bottom img{
@@ -346,7 +366,7 @@ button:hover{
 
 .topof-card-bottom button{
     display: block;
-    margin: 40px auto;
+    margin: 25px auto;
     color: white;
     background-color: #ff7a59;
     font-size: 18px;
@@ -380,7 +400,6 @@ button:hover{
 .seventh-down{
     height: 450px;
     margin-top: 190px;
-    opacity: 0.6;
 }
 
 .grid{
@@ -389,6 +408,12 @@ button:hover{
     height: calc(100% / 2);
     padding: 16px 25px 25px 25px;
     background-color: transparent;
+    opacity: 0.6;
+}
+
+.grid:hover{
+    opacity: 2;
+    cursor: pointer;
 }
 
 .rx{
@@ -460,6 +485,7 @@ button:hover{
 
 .rightof-eigth-top li{
     list-style: none;
+    line-height: 50px;
     padding:10px;
     margin:0 30px 40px 0;
     float: left;
@@ -469,7 +495,6 @@ button:hover{
 
 .rightof-eigth-top li img{
     width: 100%;
-    height: 100%;
 }
 
 .eigth-bottom{
@@ -505,7 +530,7 @@ button:hover{
 
 footer{
     height: 100%;
-    padding-top: 92px;
+    padding-top: 140px;
 }
 
 .footer-list{
@@ -529,6 +554,10 @@ footer{
     text-decoration: none;
 }
 
+.footer-list a:hover{
+    color: #7fd1de;
+}
+
 .footer-list button{
     color: black;
     width: 65%;
@@ -543,14 +572,40 @@ footer{
     margin-right: 18px;
 }
 
+.fa-facebook-f:hover{
+    color: blue;
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(blue , red , yellow);
+    border-radius: 5px;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+
+.fa-twitter:hover{
+    color: lightblue;
+}
+
+.fa-linkedin:hover{
+    color: blue;
+}
+
 .language-footer{
     width: 100%;
     height: 10%;
+    padding-bottom: 30px;
     color: #cbd6e2;
     text-align: center;
     font-size: 23px;
     float: left;
     border-bottom: 1px solid #cbd6e2;
+}
+
+.languages:hover{
+    color: #7fd1de;
 }
 
 .languages{
@@ -570,7 +625,7 @@ footer{
     width: 350px;
     color: #cbd6e2;
     border: 0;
-    margin-top: 50px;
+    margin-top: 107px;
 }
 
 .logo.bottom img{
@@ -584,7 +639,7 @@ footer{
     float: left;
     width: 400px;
     height: 150px;
-    margin: 50px 0 0 450px;
+    margin: 100px 0 0 450px;
 }
 
 .footer-right li{
@@ -595,7 +650,35 @@ footer{
     color: #cbd6e2;
     font-size: 22px;
     line-height: 100px;
-    margin: 0 40px 0 39px;
+    margin: 0 35px 0 35px;
     text-decoration: none;
 }
 /* fine container nine */
+
+/* Assistance button */
+
+.assistance{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #344964;
+    box-shadow: 3px 3px 6px 0px #7fd1de;
+    border-radius: 50%;
+}
+
+.assistance:hover{
+    cursor: pointer;
+}
+
+.assistance i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* fine Assistance button and css */
