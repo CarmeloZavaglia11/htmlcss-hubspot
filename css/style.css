@@ -670,6 +670,22 @@ footer{
 
 .assistance:hover{
     cursor: pointer;
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+    20%,50%,80%,to{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
 }
 
 .assistance i{
