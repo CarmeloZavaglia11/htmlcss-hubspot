@@ -28,6 +28,7 @@ button:hover{
 .first{
     position: fixed;
     z-index: 999999;
+    top: 0;
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
     height: 80px;
